@@ -1,0 +1,36 @@
+@import "vkmusic-btn";
+@import "vkmusic-info";
+@import "vkmusic-download-all-btn";
+
+.vkmusic-init {
+    .vkmusic-btn-inner { opacity: 1; }
+}
+.ads_ad_box2, .ads_ad_box, #ads_left { display: none !important; }
+.audio_row__play_btn { float: left; position: relative!important; z-index: 1; }
+.audio_row__duration { float: left; }
+.audio_row:hover .audio_row__duration { float: none; }
+.audios_module .vkmusic-btn, .audio_page_layout .vkmusic-btn { left: 50px; top: 3px; margin-right: 55px; }
+
+
+.audio .info, #pad_playlist_panel .audio .area { width: auto !important; }
+.selectedAudio { background-color: rgba(10, 0, 255, 0.31); border-radius: 5px; }
+.audio_inline_player { padding-left: 30px; }
+._audio_row:hover .vkmusic-btn,
+.vkmusic-btn.vkmusic-btn_visible,
+.vkmusic-btn.vkmd_download_in_progress {margin-left: 0 !important}
+
+.audio_numeric .audio_row .audio_row__cover,
+.audio_numeric .audio_row .audio_row__cover_back,
+.audio_numeric .audio_row .audio_row__cover_icon,
+.audio_numeric .audio_row .audio_row__play_btn {
+    display: block!important;
+}
+
+#vkmusic-box_layer_wrap {
+    ::-webkit-scrollbar-button { background-repeat: no-repeat; width: 0; height: 0; }
+    ::-webkit-scrollbar-track { background-color: #ecedee; opacity: .5; }
+    ::-webkit-scrollbar-thumb { border-radius: 50px; background-color: #949494; opacity: .5; }
+    ::-webkit-scrollbar-thumb:hover { background-color: #2f4050; }
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    .popup_box_container { max-height: 85vh; overflow: auto;}
+}

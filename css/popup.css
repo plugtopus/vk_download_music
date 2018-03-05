@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 0;
+  height: 0; }
+
+::-webkit-scrollbar-track {
+  background-color: #ecedee;
+  opacity: .5; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #949494;
+  opacity: .5; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2f4050; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; }
+
+a {
+  outline: none; }
+
+body {
+  width: 360px;
+  font-family: 'Tahoma', sans-serif; }
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ebeffb;
+  padding: 0 20px; }
+  header .logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer; }
+  header .logo {
+    background: url(/img/plugtopusLogo150x137.png) center center/contain no-repeat; }
+
+.download-folder {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: url(/img/download-folder.png) center center/contain no-repeat; }
+
+main {
+  height: 470px;
+  overflow: auto; }
+  main .tab {
+    display: none; }
+  main .history-tab {
+    display: block; }
+
+.container {
+  width: 300px;
+  margin: 0 auto; }
+
+.date-ranges {
+  line-height: 40px;
+  font-size: 14px;
+  color: #cdcdcd;
+  font-weight: 300;
+  text-align: right;
+  cursor: pointer;
+  user-select: none; }
+  .date-ranges .date-range {
+    margin-left: 10px;
+    font-size: 12px; }
+    .date-ranges .date-range.active {
+      color: #285473; }
+
+ul.history-ul {
+  padding-top: 10px; }
+  ul.history-ul .history-item {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebeffb;
+    padding: 6px 0; }
+    ul.history-ul .history-item:last-child {
+      border: none; }
+    ul.history-ul .history-item .inner {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+    ul.history-ul .history-item .icon {
+      width: 36px;
+      height: 33px; }
+      ul.history-ul .history-item .icon.downloaded {
+        background: url(/img/downloaded-icon.png) center center/contain no-repeat; }
+      ul.history-ul .history-item .icon.error {
+        background: url(/img/error.png) center center/contain no-repeat; }
+      ul.history-ul .history-item .icon.abort {
+        background: url(/img/abort.png) center center/contain no-repeat; }
+    ul.history-ul .history-item .info {
+      margin-left: 10px; }
+    ul.history-ul .history-item .title {
+      font-size: 14px;
+      color: #000;
+      font-weight: 400;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 190px;
+      overflow: hidden;
+      margin-bottom: 5px; }
+    ul.history-ul .history-item .singer {
+      font-size: 12px;
+      color: #b0b0b0;
+      font-weight: 300;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 190px;
+      overflow: hidden; }
+    ul.history-ul .history-item .date {
+      font-size: 14px;
+      color: #cdcdcd;
+      font-weight: 300; }
+  ul.history-ul .empty-history {
+    color: #868686;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto; }
+
+.settings-tab {
+  padding-top: 30px; }
+  .settings-tab .title {
+    margin-bottom: 20px;
+    font-size: 14px; }
+
+.underline {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.additional-settings-tab {
+  padding-top: 30px; }
+  .additional-settings-tab .title {
+    margin-bottom: 20px;
+    font-size: 14px; }
+  .additional-settings-tab p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: justify; }
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ebeffb;
+  padding: 0 20px; }
+  footer .history-icon, footer .settings-icon {
+    width: 40px;
+    height: 26px;
+    cursor: pointer; }
+  footer .history-icon {
+    display: none;
+    background: url(/img/history.png) center center/contain no-repeat; }
+  footer .settings-icon {
+    background: url(/img/settings.png) center center/70% no-repeat; }
+
+.radio-box {
+  position: relative;
+  margin-bottom: 20px; }
+  .radio-box input {
+    display: none; }
+    .radio-box input + .psevdo-radio {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid #285473;
+      margin-right: 10px;
+      vertical-align: middle;
+      cursor: pointer; }
+  .radio-box input:checked + .psevdo-radio:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #19c61b; }
+  .radio-box span {
+    font-size: 12px;
+    cursor: pointer; }
+
+svg {
+  transform: rotateZ(-90deg); }
+
+.progress-pie-chart {
+  position: relative;
+  height: 36px; }
+  .progress-pie-chart .ppc-percents {
+    position: absolute;
+    width: 36px;
+    top: 0;
+    left: 0;
+    text-align: center; }
+    .progress-pie-chart .ppc-percents span {
+      font-size: 10px;
+      font-weight: bold;
+      color: #285473;
+      line-height: 36px; }

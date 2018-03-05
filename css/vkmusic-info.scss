@@ -1,0 +1,14 @@
+.vkmusic-info {
+    float: right;
+    margin-left: 4px;
+    width: 24px;
+    height: 24px;
+    font-size: 8px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: visible;
+    margin-top: 6px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.audio_row:hover .vkmusic-info { display: none !important; }

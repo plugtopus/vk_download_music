@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "core/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/vk_music.css" ],
+      "js": ["core/lib/jquery-3.1.1.min.js", "core/_config.js", "core/vk-audio.js", "core/tutorial-modal.js", "core/audio-model.js", "core/content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "48": "img/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "optional_permissions": [ "downloads" ],
+   "options_page": "html/options.html",
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "http://vk.com/*", "https://vk.com/*", "*://*/*" ],
+   "short_name": "Загрузка музыки VK ",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "author": "Plugtopus Agency",
+   "homepage_url": "https://plugtopus.agency",
+   "version": "2018.3.05.1"
+}

@@ -1,0 +1,134 @@
+{
+   "abort": {
+      "message": "Отменено"
+   },
+   "cancelAll": {
+      "message": "Отменить все"
+   },
+   "clearHistory": {
+      "message": "Очистить историю"
+   },
+   "day": {
+      "message": "День"
+   },
+   "desc": {
+      "message": "Просто скачать музыку ВКонтакте в один клик. Можно сохранять треки отдельными mp3 файлами или целыми альбомами"
+   },
+   "downloadAll": {
+      "message": "Скачать все"
+   },
+   "downloadAllBtn": {
+      "message": "Опция \"Скачать все\":"
+   },
+   "downloadAllBtnOff": {
+      "message": "Выключить"
+   },
+   "downloadAllBtnOn": {
+      "message": "Включить"
+   },
+   "downloaded": {
+      "message": "Скачано"
+   },
+   "emptyHistoryMsg": {
+      "message": "Здесь можно посмотреть историю скачанных треков"
+   },
+   "error": {
+      "message": "Ошибка"
+   },
+   "goToDownloadsFolder": {
+      "message": "Папка Загрузки"
+   },
+   "history": {
+      "message": "История"
+   },
+   "inProcess": {
+      "message": "Загружается"
+   },
+   "inQueue": {
+      "message": "В очереди на загрузку"
+   },
+   "mainSettings": {
+      "message": "Основные настройки"
+   },
+   "month": {
+      "message": "Месяц"
+   },
+   "name": {
+      "message": "Музыка ВКонтакте"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "showInfoAll": {
+      "message": "Показать битрейт и размер"
+   },
+   "showInfoBitrate": {
+      "message": "Показать только битрейт"
+   },
+   "showInfoOff": {
+      "message": "Не показывать битрейт и размер"
+   },
+   "showInfoSize": {
+      "message": "Показать только размер"
+   },
+   "title": {
+      "message": "Музыка ВКонтакте"
+   },
+   "tutModalText0": {
+      "message": "Настройка скачивания музыки"
+   },
+   "tutModalText1": {
+      "message": "Дорогой пользователь. Это сообщение от автора расширения для"
+   },
+   "tutModalText10": {
+      "message": "Только размер"
+   },
+   "tutModalText11": {
+      "message": "Битрейт и размер"
+   },
+   "tutModalText12": {
+      "message": "Отображение битрейта/размера"
+   },
+   "tutModalText13": {
+      "message": "Если Вам нравится это расширения, будет здорово если Вы оставите хороший"
+   },
+   "tutModalText14": {
+      "message": "отзыв в магазине приложений"
+   },
+   "tutModalText18": {
+      "message": "Отмена"
+   },
+   "tutModalText19": {
+      "message": "Сохранить"
+   },
+   "tutModalText2": {
+      "message": "скачивания музыки с вк"
+   },
+   "tutModalText3": {
+      "message": "Мы постоянно работаем над его усовершенствованием и добавляем возможности которые Вы просите."
+   },
+   "tutModalText4": {
+      "message": "Последнее обновление добавило возможность"
+   },
+   "tutModalText5": {
+      "message": "скачивать музыку целыми альбомами"
+   },
+   "tutModalText6": {
+      "message": "но не всем хочется видеть дополнительную кнопку у себя, по этому по умолчанию эта функция выключена, сейчас Вы можете выбрать предпочитаемые настройки расширения."
+   },
+   "tutModalText7": {
+      "message": "Включить опцию \"Скачать все\""
+   },
+   "tutModalText8": {
+      "message": "Выключить"
+   },
+   "tutModalText9": {
+      "message": "Только битрейт"
+   },
+   "viewSettings": {
+      "message": "Инфо трека:"
+   },
+   "week": {
+      "message": "Неделя"
+   }
+}
